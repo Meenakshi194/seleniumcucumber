@@ -1,0 +1,72 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-26T06:30:07.921Z",
+        "line": 5,
+        "name": "Success login",
+        "description": "",
+        "id": "login;success-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2494300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters username",
+            "match": {
+              "location": "Step_definition.user_enters_username()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 692400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters password",
+            "match": {
+              "location": "Step_definition.user_enters_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on login button",
+            "match": {
+              "location": "Step_definition.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "home page is displayed",
+            "match": {
+              "location": "Step_definition.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:TDD/login_feature.feature",
+    "tags": []
+  }
+]
